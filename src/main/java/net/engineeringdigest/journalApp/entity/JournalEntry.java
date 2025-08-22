@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
 
 @Document(collection = "journal_entries")
 @Data
-
 public class JournalEntry {
     @Id
     private ObjectId id;
